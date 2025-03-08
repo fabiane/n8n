@@ -186,6 +186,9 @@ importers:
       '@types/supertest':
         specifier: ^6.0.2
         version: 6.0.2
+      canvas:
+        specifier: ^3.1.0
+        version: 3.1.0
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -194,7 +197,7 @@ importers:
         version: 29.6.2(@types/node@18.16.16)(ts-node@10.9.2(@types/node@18.16.16)(typescript@5.7.2))
       jest-environment-jsdom:
         specifier: ^29.6.2
-        version: 29.6.2
+        version: 29.6.2(canvas@3.1.0)
       jest-expect-message:
         specifier: ^1.1.3
         version: 1.1.3
@@ -520,7 +523,7 @@ importers:
         version: 0.3.2(@aws-sdk/client-sso-oidc@3.666.0(@aws-sdk/client-sts@3.666.0))(@langchain/core@0.3.30(openai@4.78.1(encoding@0.1.13)(zod@3.24.1)))(encoding@0.1.13)
       '@langchain/community':
         specifier: 0.3.24
-        version: 0.3.24(6c18f51b4fff56aeb9d6961328b4ede2)
+        version: 0.3.24(6b369e1dd43cb5075ca0ec8ee4b72935)
       '@langchain/core':
         specifier: 'catalog:'
         version: 0.3.30(openai@4.78.1(encoding@0.1.13)(zod@3.24.1))
@@ -607,7 +610,7 @@ importers:
         version: 9.0.5
       jsdom:
         specifier: 23.0.1
-        version: 23.0.1
+        version: 23.0.1(canvas@3.1.0)
       langchain:
         specifier: 0.3.11
         version: 0.3.11(101f2d8395211f7761efa8fce29a53de)
@@ -698,7 +701,7 @@ importers:
         version: 3.2.4(react@18.2.0)(storybook@8.5.0(prettier@3.3.3))
       '@storybook/addon-a11y':
         specifier: ^8.5.0
-        version: 8.5.0(storybook@8.5.0(prettier@3.3.3))(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1))
+        version: 8.5.0(storybook@8.5.0(prettier@3.3.3))(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1))
       '@storybook/addon-actions':
         specifier: ^8.5.0
         version: 8.5.0(storybook@8.5.0(prettier@3.3.3))
@@ -812,7 +815,7 @@ importers:
         version: 4.3.0(@types/node@18.16.16)(rollup@4.24.0)(typescript@5.7.2)(vite@6.0.2(@types/node@18.16.16)(jiti@1.21.0)(sass@1.64.1)(terser@5.16.1))
       vitest:
         specifier: catalog:frontend
-        version: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1)
+        version: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1)
 
   packages/@n8n/vitest-config:
     devDependencies:
@@ -821,7 +824,7 @@ importers:
         version: 6.0.2(@types/node@18.16.16)(jiti@1.21.0)(sass@1.64.1)(terser@5.16.1)
       vitest:
         specifier: catalog:frontend
-        version: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1)
+        version: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1)
 
   packages/cli:
     dependencies:
@@ -1346,7 +1349,7 @@ importers:
         version: 5.2.1(vite@6.0.2(@types/node@18.16.16)(jiti@1.21.0)(sass@1.64.1)(terser@5.16.1))(vue@3.5.13(typescript@5.7.2))
       '@vitest/coverage-v8':
         specifier: catalog:frontend
-        version: 3.0.5(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1))
+        version: 3.0.5(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1))
       unplugin-icons:
         specifier: ^0.19.0
         version: 0.19.0(@vue/compiler-sfc@3.5.13)
@@ -1358,7 +1361,7 @@ importers:
         version: 4.3.0(@types/node@18.16.16)(rollup@4.24.0)(typescript@5.7.2)(vite@6.0.2(@types/node@18.16.16)(jiti@1.21.0)(sass@1.64.1)(terser@5.16.1))
       vitest:
         specifier: catalog:frontend
-        version: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1)
+        version: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1)
       vue-tsc:
         specifier: ^2.1.10
         version: 2.1.10(patch_hash=e2aee939ccac8a57fe449bfd92bedd8117841579526217bc39aca26c6b8c317f)(typescript@5.7.2)
@@ -1406,7 +1409,7 @@ importers:
         version: 4.3.0(@types/node@18.16.16)(rollup@4.24.0)(typescript@5.7.2)(vite@6.0.2(@types/node@18.16.16)(jiti@1.21.0)(sass@1.64.1)(terser@5.16.1))
       vitest:
         specifier: catalog:frontend
-        version: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1)
+        version: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1)
       vue:
         specifier: catalog:frontend
         version: 3.5.13(typescript@5.7.2)
@@ -1509,7 +1512,7 @@ importers:
         version: 5.2.1(vite@6.0.2(@types/node@18.16.16)(jiti@1.21.0)(sass@1.64.1)(terser@5.16.1))(vue@3.5.13(typescript@5.7.2))
       '@vitest/coverage-v8':
         specifier: catalog:frontend
-        version: 3.0.5(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1))
+        version: 3.0.5(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1))
       autoprefixer:
         specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.49)
@@ -1533,10 +1536,10 @@ importers:
         version: 6.0.2(@types/node@18.16.16)(jiti@1.21.0)(sass@1.64.1)(terser@5.16.1)
       vitest:
         specifier: catalog:frontend
-        version: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1)
+        version: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1)
       vitest-mock-extended:
         specifier: catalog:frontend
-        version: 2.0.2(typescript@5.7.2)(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1))
+        version: 2.0.2(typescript@5.7.2)(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1))
       vue-tsc:
         specifier: ^2.1.10
         version: 2.1.10(patch_hash=e2aee939ccac8a57fe449bfd92bedd8117841579526217bc39aca26c6b8c317f)(typescript@5.7.2)
@@ -1825,7 +1828,7 @@ importers:
         version: 5.2.1(vite@6.0.2(@types/node@18.16.16)(jiti@1.21.0)(sass@1.64.1)(terser@5.16.1))(vue@3.5.13(typescript@5.7.2))
       '@vitest/coverage-v8':
         specifier: catalog:frontend
-        version: 3.0.5(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1))
+        version: 3.0.5(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1))
       browserslist-to-esbuild:
         specifier: ^2.1.1
         version: 2.1.1(browserslist@4.24.2)
@@ -1852,10 +1855,10 @@ importers:
         version: 5.1.0(vue@3.5.13(typescript@5.7.2))
       vitest:
         specifier: catalog:frontend
-        version: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1)
+        version: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1)
       vitest-mock-extended:
         specifier: catalog:frontend
-        version: 2.0.2(typescript@5.7.2)(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1))
+        version: 2.0.2(typescript@5.7.2)(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1))
       vue-tsc:
         specifier: ^2.1.10
         version: 2.1.10(patch_hash=e2aee939ccac8a57fe449bfd92bedd8117841579526217bc39aca26c6b8c317f)(typescript@5.7.2)
@@ -3544,6 +3547,7 @@ packages:
   '@faker-js/faker@8.0.2':
     resolution: {integrity: sha512-Uo3pGspElQW91PCvKSIAXoEgAUlRnH29sX2/p89kg7sP1m2PzCufHINd0FhTXQf6DYGiUlVncdSPa2F9wxed2A==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0, npm: '>=6.14.13'}
+    deprecated: Please update to a newer version
 
   '@fastify/busboy@2.1.1':
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
@@ -7014,6 +7018,7 @@ packages:
   bson@6.10.0:
     resolution: {integrity: sha512-ROchNosXMJD2cbQGm84KoP7vOGPO6/bOAW0veMMbzhXLqoZptcaYRVLitwvuhwhjjpU1qP4YZRWLhgETdgqUQw==}
     engines: {node: '>=16.20.1'}
+    deprecated: a critical bug affecting only useBigInt64=true deserialization usage is fixed in bson@6.10.3
 
   buffer-crc32@0.2.13:
     resolution: {integrity: sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==}
@@ -7116,6 +7121,10 @@ packages:
 
   caniuse-lite@1.0.30001677:
     resolution: {integrity: sha512-fmfjsOlJUpMWu+mAAtZZZHz7UEwsUxIIvu1TJfO1HqFQvB/B+ii0xr9B5HpbZY/mC4XZ8SvjHJqtAY6pDPQEog==}
+
+  canvas@3.1.0:
+    resolution: {integrity: sha512-tTj3CqqukVJ9NgSahykNwtGda7V33VLObwrHfzT0vqJXu7J4d4C/7kQQW3fOEGDfZZoILPut5H00gOjyttPGyg==}
+    engines: {node: ^18.12.0 || >= 20.9.0}
 
   capital-case@1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -7846,10 +7855,6 @@ packages:
   destroy@1.2.0:
     resolution: {integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
-
-  detect-libc@2.0.1:
-    resolution: {integrity: sha512-463v3ZeIrcWtdgIg6vI6XUncguvr2TnGl4SzDXinkt9mSLpBJKXT3mW6xT3VQdDN11+WVs29pgvivTc4Lp8v+w==}
-    engines: {node: '>=8'}
 
   detect-libc@2.0.3:
     resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==}
@@ -8861,6 +8866,7 @@ packages:
   gm@1.25.0:
     resolution: {integrity: sha512-4kKdWXTtgQ4biIo7hZA396HT062nDVVHPjQcurNZ3o/voYN+o5FUC5kOwuORbpExp3XbTJ3SU7iRipiIhQtovw==}
     engines: {node: '>=14'}
+    deprecated: The gm module has been sunset. Please migrate to an alternative. https://github.com/aheckmann/gm?tab=readme-ov-file#2025-02-24-this-project-is-not-maintained
 
   google-auth-library@8.9.0:
     resolution: {integrity: sha512-f7aQCJODJFmYWN6PeNKzgvy9LI2tYmXnzpNDHEjG5sDNPgGb2FXQyTBnXeSH+PAtpKESFD+LmHw3Ox3mN7e1Fg==}
@@ -13316,9 +13322,6 @@ packages:
   vue-component-type-helpers@2.1.10:
     resolution: {integrity: sha512-lfgdSLQKrUmADiSV6PbBvYgQ33KF3Ztv6gP85MfGaGaSGMTXORVaHT1EHfsqCgzRNBstPKYDmvAV9Do5CmJ07A==}
 
-  vue-component-type-helpers@2.2.4:
-    resolution: {integrity: sha512-F66p0XLbAu92BRz6kakHyAcaUSF7HWpWX/THCqL0TxySSj7z/nok5UUMohfNkkCm1pZtawsdzoJ4p1cjNqCx0Q==}
-
   vue-component-type-helpers@2.2.8:
     resolution: {integrity: sha512-4bjIsC284coDO9om4HPA62M7wfsTvcmZyzdfR0aUlFXqq4tXxM1APyXpNVxPC8QazKw9OhmZNHBVDA6ODaZsrA==}
 
@@ -16460,7 +16463,7 @@ snapshots:
       - aws-crt
       - encoding
 
-  '@langchain/community@0.3.24(6c18f51b4fff56aeb9d6961328b4ede2)':
+  '@langchain/community@0.3.24(6b369e1dd43cb5075ca0ec8ee4b72935)':
     dependencies:
       '@browserbasehq/stagehand': 1.9.0(@playwright/test@1.49.1)(deepmerge@4.3.1)(dotenv@16.4.5)(encoding@0.1.13)(openai@4.78.1(encoding@0.1.13)(zod@3.24.1))(zod@3.24.1)
       '@ibm-cloud/watsonx-ai': 1.1.2
@@ -16510,7 +16513,7 @@ snapshots:
       html-to-text: 9.0.5
       ignore: 5.2.4
       ioredis: 5.3.2
-      jsdom: 23.0.1
+      jsdom: 23.0.1(canvas@3.1.0)
       jsonwebtoken: 9.0.2
       lodash: 4.17.21
       mammoth: 1.7.2
@@ -18120,13 +18123,13 @@ snapshots:
 
   '@sqltools/formatter@1.2.5': {}
 
-  '@storybook/addon-a11y@8.5.0(storybook@8.5.0(prettier@3.3.3))(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1))':
+  '@storybook/addon-a11y@8.5.0(storybook@8.5.0(prettier@3.3.3))(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1))':
     dependencies:
       '@storybook/addon-highlight': 8.5.0(storybook@8.5.0(prettier@3.3.3))
       '@storybook/test': 8.5.0(storybook@8.5.0(prettier@3.3.3))
       axe-core: 4.7.2
       storybook: 8.5.0(prettier@3.3.3)
-      vitest-axe: 0.1.0(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1))
+      vitest-axe: 0.1.0(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1))
     transitivePeerDependencies:
       - vitest
 
@@ -19138,7 +19141,7 @@ snapshots:
       vite: 6.0.2(@types/node@18.16.16)(jiti@1.21.0)(sass@1.64.1)(terser@5.16.1)
       vue: 3.5.13(typescript@5.7.2)
 
-  '@vitest/coverage-v8@3.0.5(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1))':
+  '@vitest/coverage-v8@3.0.5(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 1.0.2
@@ -19152,7 +19155,7 @@ snapshots:
       std-env: 3.8.0
       test-exclude: 7.0.1
       tinyrainbow: 2.0.0
-      vitest: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1)
+      vitest: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -19376,7 +19379,7 @@ snapshots:
   '@vue/test-utils@2.4.6':
     dependencies:
       js-beautify: 1.14.9
-      vue-component-type-helpers: 2.2.4
+      vue-component-type-helpers: 2.2.8
 
   '@vue/tsconfig@0.7.0(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))':
     optionalDependencies:
@@ -20151,6 +20154,11 @@ snapshots:
   camelize@1.0.1: {}
 
   caniuse-lite@1.0.30001677: {}
+
+  canvas@3.1.0:
+    dependencies:
+      node-addon-api: 7.1.0
+      prebuild-install: 7.1.1
 
   capital-case@1.0.4:
     dependencies:
@@ -20954,8 +20962,6 @@ snapshots:
   dequal@2.0.3: {}
 
   destroy@1.2.0: {}
-
-  detect-libc@2.0.1: {}
 
   detect-libc@2.0.3: {}
 
@@ -23082,7 +23088,7 @@ snapshots:
       jest-util: 29.6.2
       pretty-format: 29.7.0
 
-  jest-environment-jsdom@29.6.2:
+  jest-environment-jsdom@29.6.2(canvas@3.1.0):
     dependencies:
       '@jest/environment': 29.6.2
       '@jest/fake-timers': 29.6.2
@@ -23091,7 +23097,9 @@ snapshots:
       '@types/node': 18.16.16
       jest-mock: 29.6.2
       jest-util: 29.6.2
-      jsdom: 20.0.2
+      jsdom: 20.0.2(canvas@3.1.0)
+    optionalDependencies:
+      canvas: 3.1.0
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -23402,7 +23410,7 @@ snapshots:
 
   jsdoc-type-pratt-parser@4.1.0: {}
 
-  jsdom@20.0.2:
+  jsdom@20.0.2(canvas@3.1.0):
     dependencies:
       abab: 2.0.6
       acorn: 8.12.1
@@ -23430,12 +23438,14 @@ snapshots:
       whatwg-url: 11.0.0
       ws: 8.17.1
       xml-name-validator: 4.0.0
+    optionalDependencies:
+      canvas: 3.1.0
     transitivePeerDependencies:
       - bufferutil
       - supports-color
       - utf-8-validate
 
-  jsdom@23.0.1:
+  jsdom@23.0.1(canvas@3.1.0):
     dependencies:
       cssstyle: 3.0.0
       data-urls: 5.0.0
@@ -23458,6 +23468,8 @@ snapshots:
       whatwg-url: 14.0.0
       ws: 8.17.1
       xml-name-validator: 5.0.0
+    optionalDependencies:
+      canvas: 3.1.0
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -25373,7 +25385,7 @@ snapshots:
 
   prebuild-install@7.1.1:
     dependencies:
-      detect-libc: 2.0.1
+      detect-libc: 2.0.3
       expand-template: 2.0.3
       github-from-package: 0.0.0
       minimist: 1.2.8
@@ -27537,7 +27549,7 @@ snapshots:
       sass: 1.64.1
       terser: 5.16.1
 
-  vitest-axe@0.1.0(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1)):
+  vitest-axe@0.1.0(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1)):
     dependencies:
       aria-query: 5.3.0
       axe-core: 4.7.2
@@ -27545,15 +27557,15 @@ snapshots:
       dom-accessibility-api: 0.5.15
       lodash-es: 4.17.21
       redent: 3.0.0
-      vitest: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1)
+      vitest: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1)
 
-  vitest-mock-extended@2.0.2(typescript@5.7.2)(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1)):
+  vitest-mock-extended@2.0.2(typescript@5.7.2)(vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1)):
     dependencies:
       ts-essentials: 10.0.2(typescript@5.7.2)
       typescript: 5.7.2
-      vitest: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1)
+      vitest: 3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1)
 
-  vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1)(sass@1.64.1)(terser@5.16.1):
+  vitest@3.0.5(@types/debug@4.1.12)(@types/node@18.16.16)(jiti@1.21.0)(jsdom@23.0.1(canvas@3.1.0))(sass@1.64.1)(terser@5.16.1):
     dependencies:
       '@vitest/expect': 3.0.5
       '@vitest/mocker': 3.0.5(vite@6.0.2(@types/node@18.16.16)(jiti@1.21.0)(sass@1.64.1)(terser@5.16.1))
@@ -27578,7 +27590,7 @@ snapshots:
     optionalDependencies:
       '@types/debug': 4.1.12
       '@types/node': 18.16.16
-      jsdom: 23.0.1
+      jsdom: 23.0.1(canvas@3.1.0)
     transitivePeerDependencies:
       - jiti
       - less
@@ -27621,8 +27633,6 @@ snapshots:
       typescript: 5.7.2
 
   vue-component-type-helpers@2.1.10: {}
-
-  vue-component-type-helpers@2.2.4: {}
 
   vue-component-type-helpers@2.2.8: {}
 
